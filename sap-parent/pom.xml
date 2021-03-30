@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<properties>
+		<sap.version>1.0.0</sap.version>
+		<sap.java.version>1.8</sap.java.version>
+	</properties>
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>cl.tarce.sap</groupId>
+	<artifactId>sap-parent</artifactId>
+	<version>${sap.version}</version>
+	<packaging>pom</packaging>
+	<name>sap-parent</name>
+	<description>sap-parent</description>
+
+	<modules>
+		<module>sap-core</module>
+		<module>sap-defs</module>
+		<module>sap-examples</module>
+	</modules>
+</project>
